@@ -1,0 +1,21 @@
+{
+  "name": "notion-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@notionhq/client": "^0.4.12",
+    "body-parser": "^1.19.1",
+    "dotenv": "^14.1.0",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "server": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
